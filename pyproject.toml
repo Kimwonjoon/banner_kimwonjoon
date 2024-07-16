@@ -15,6 +15,7 @@ license = {text = "MIT"}
 [project.scripts]
 kimwonjoon-banner = "banner_kimwonjoon.banner:show"
 kimwonjoon-pic = "banner_kimwonjoon.banner:pic"
+kimwonjoon-lotto = "banner_kimwonjoon.banner:lotto"
 
 
 [tool.pdm]
