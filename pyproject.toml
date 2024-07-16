@@ -17,4 +17,4 @@ show-banner = "banner_kimwonjoon.banner:show"
 
 
 [tool.pdm]
-distribution = false
+distribution = true
