@@ -34,6 +34,25 @@ import pyfiglet
 f = pyfiglet.figlet_format("I dont know", font="slant")
 print(f)
 ```
+If you want to watch ASCII Art
+```
+$ kimwonjoon-pic
+        .　　　,,　＿
+    　　／ 　　　 ｀､
+    　 /　　　　　● ╮
+    　/ ● 　　 　💧　l
+    　l　💧　し　 💧　|
+    　l　💧　_＿,,ノ 💧l
+    　 ＼💧＿´'￣´_💧/
+    . 　 /💧　　￣ 💧 ╮
+    　 /　💧　　　💧 .╮
+    .　|　　💧　　　　.|
+```
+로또 번호가 필요하다면? If you need LOTTO numbers
+```
+$ kimwonjoon-lotto
+로또 번호 : [3, 6, 15, 17, 31, 45]
+```
 If you have found some new fonts that you want to use, you can use the
 command line interface to install your font file as follows:
 
