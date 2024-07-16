@@ -3,13 +3,11 @@
 # **pyfiglet**
 
 ```
-                        _|_|  _|            _|              _|
-_|_|_|    _|    _|    _|            _|_|_|  _|    _|_|    _|_|_|_|
-_|    _|  _|    _|  _|_|_|_|  _|  _|    _|  _|  _|_|_|_|    _|
-_|    _|  _|    _|    _|      _|  _|    _|  _|  _|          _|
-_|_|_|      _|_|_|    _|      _|    _|_|_|  _|    _|_|_|      _|_|
-_|              _|                      _|
-_|          _|_|                    _|_|
+    ____       __            __     __
+   /  _/  ____/ /___  ____  / /_   / /______  ____ _      __
+   / /   / __  / __ \/ __ \/ __/  / //_/ __ \/ __ \ | /| / /
+ _/ /   / /_/ / /_/ / / / / /_   / ,< / / / / /_/ / |/ |/ /
+/___/   \__,_/\____/_/ /_/\__/  /_/|_/_/ /_/\____/|__/|__/
 ```
 
 ## **Usage**
@@ -26,14 +24,14 @@ use `-f` to change the font. It defaults to standard.flf.
 ```py
 from pyfiglet import Figlet
 f = Figlet(font='slant')
-print(f.renderText('text to render'))
+print(f.renderText('I dont know'))
 ```
 
 or
 
 ```py
 import pyfiglet
-f = pyfiglet.figlet_format("text to render", font="slant")
+f = pyfiglet.figlet_format("I dont know", font="slant")
 print(f)
 ```
 If you have found some new fonts that you want to use, you can use the
